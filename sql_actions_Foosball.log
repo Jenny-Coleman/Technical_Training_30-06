@@ -1,0 +1,31 @@
+[1, 14:51:38] Apply changes to Foosball: Applying object changes ...
+[1, 14:51:46] Applying changes to foosball...: 
+[1, 14:51:46] : Changes applied to foosball
+[1, 14:51:48] Apply changes to Foosball: Changes applied
+[2, 14:53:23] Apply changes to Player: Applying object changes ...
+[2, 14:53:46] Applying changes to player...: 
+[2, 14:53:46] : Changes applied to player
+[2, 14:53:56] Apply changes to Player: Changes applied
+[3, 15:06:46] INSERT INTO tblstudent values (0001, "Jenny Coleman", 19, 60): Running...
+[3, 15:06:46] INSERT INTO tblstudent values (0001, "Jenny Coleman", 19, 60): Error Code: 1146. Table 'foosball.tblstudent' doesn't exist
+[4, 15:07:14] INSERT INTO player values (0001, "Jenny Coleman", 19, 60): Running...
+[4, 15:07:14] INSERT INTO player values (0001, "Jenny Coleman", 19, 60): 1 row(s) affected
+[5, 15:07:14] INSERT INTO player values (0002, "Alex Kromker", 19, 40): Running...
+[5, 15:07:14] INSERT INTO player values (0002, "Alex Kromker", 19, 40): 1 row(s) affected
+[6, 15:07:14] INSERT INTO player values (0003, "Samad-aziz Choronara", 18, 51): Running...
+[6, 15:07:14] INSERT INTO player values (0003, "Samad-aziz Choronara", 18, 51): 1 row(s) affected
+[7, 15:07:49] SELECT * FROM players
+LIMIT 0, 1000
+: Running...
+[7, 15:07:49] SELECT * FROM players
+LIMIT 0, 1000
+: Error Code: 1146. Table 'foosball.players' doesn't exist
+[8, 15:08:05] SELECT * FROM player
+LIMIT 0, 1000
+: Running...
+[8, 15:08:05] SELECT * FROM player
+LIMIT 0, 1000
+: Fetching...
+[8, 15:08:05] SELECT * FROM player
+LIMIT 0, 1000
+: 3 row(s) returned
